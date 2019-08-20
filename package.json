@@ -1,0 +1,22 @@
+{
+  "name": "coc-stylelint-error-demonstartion",
+  "version": "1.0.0",
+  "description": "Demonstartion of [coc.nvim] stylelint: Undefined rule function-calc-no-invalid",
+  "main": "index.js",
+  "scripts": {
+    "lint:css": "stylelint index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-htmlacademy": "^0.1.4",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.8.0"
+  }
+}

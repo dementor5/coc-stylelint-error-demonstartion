@@ -1,0 +1,1 @@
+# coc-stylelint-error-demonstartion
