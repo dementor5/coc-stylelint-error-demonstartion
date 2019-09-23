@@ -1,6 +1,5 @@
 module.exports = {
   extends: [
-    'stylelint-config-recommended',
     'stylelint-config-htmlacademy',
     'stylelint-config-styled-components',
   ],

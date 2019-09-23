@@ -4,8 +4,8 @@ class TestComponent extends LitElement {
   static get styles() {
     return css`
       p {
-        border:  1px solid blue;
-        color: red;
+        border: 1px solid blue;
+        color:  red;
       }
     `;
   }

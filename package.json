@@ -4,7 +4,10 @@
   "description": "Demonstartion of [coc.nvim] stylelint: Undefined rule function-calc-no-invalid",
   "main": "index.js",
   "scripts": {
-    "lint:css": "stylelint index.js"
+    "broken-lint-css-in-js": "cat index.js | ./node_modules/.bin/stylelint",
+    "broken-lint-css-in-css": "cat style.css | ./node_modules/.bin/stylelint",
+    "lint-css-in-js": "cat index.js | ./node_modules/.bin/stylelint --stdin-filename index.js",
+    "lint-css-in-css": "cat style.css | ./node_modules/.bin/stylelint --stdin-filename style.css"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +18,6 @@
   "devDependencies": {
     "stylelint": "^10.1.0",
     "stylelint-config-htmlacademy": "^0.1.4",
-    "stylelint-config-recommended": "^2.2.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.8.0"
   }
